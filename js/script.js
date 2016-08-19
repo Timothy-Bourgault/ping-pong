@@ -25,6 +25,13 @@ $(document).ready(function() {
     var desiredInput = $("input#desiredNumber").val();
     var result = pinkBong(desiredInput)
 
-  for (x = 0; x < desiredInput; x++)
+  for (x = 0; x < desiredInput; x++);
+    $("#result").append("<li>" + result[x]) + "</li>");
   }
-})
+    $(".output").show();
+  });
+
+  $("input#desiredNumber").keydown(function(){
+    $("#result").text("")
+  });
+});  
