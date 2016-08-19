@@ -63,7 +63,7 @@ body {
 
 .mainBody h2 {
   font-family: 'Poiret One', cursive;
-  padding-left: 1.5em;
+  padding-left: 2em;
   font-size: 45px;
 }
 
@@ -94,9 +94,11 @@ body {
     padding-bottom: 1.75em;
     margin-top: .25em;
 }
+#collapser {
+  display:inline-flex;
+}
 
-.buttonText {
+#buttonText {
   font-size: 60px;
   font-family: 'Khmer', cursive;
-  tex
 }

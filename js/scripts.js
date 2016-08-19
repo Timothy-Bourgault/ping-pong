@@ -2,6 +2,7 @@
 function pinkBong(desiredNumber) {
   var list = []
   for (var i = 1; i <= desiredNumber; i++) {
+
     if (i % 15 === 0) {
       list.push("PinkBong");
 
@@ -20,18 +21,16 @@ function pinkBong(desiredNumber) {
 //User Interface Logic:
 $(document).ready(function() {
   $("form#input").submit(function(event) {
-
     event.preventDefault();
     var desiredInput = $("input#desiredNumber").val();
-    var result = pinkBong(desiredInput)
+    var result = pinkBong(desiredInput);
 
   for (x = 0; x < desiredInput; x++);
-    $("#result").append("<li>" + result[x]) + "</li>");
-  }
+    $("#result").append("<li>" + result[x] + "</li>");
+  })
     $(".output").show();
-  });
 
   $("input#desiredNumber").keydown(function(){
     $("#result").text("")
   });
-});  
+});

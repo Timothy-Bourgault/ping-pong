@@ -4,14 +4,14 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Khmer|Poller+One|Bungee+Outline|Anton|Baloo+Da|Indie+Flower|Londrina+Outline|Poiret+One|Risque" rel="stylesheet">
-    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/jquery-3.1.0.js"></script>
     <script src="js/scripts.js"></script>
     <title>Pink Bong</title>
   </head>
   <body>
     <div class="container" id="wholeBackground">
       <div class="container">
-        <div class="jumbotron widewrapper">
+        <div class="jumbotron  widewrapper">
           <div class="row">
             <div class="col-lg-3">
               <img src="img/pinkBong.png" alt="a picture of a pink water pipe"/>
@@ -19,6 +19,12 @@
             <div class="col-lg-9 title">
               <h1>Pink Bong</h1>
               <h2>Watch your numbers get stoned in style!</h2>
+              <h3>The Laws it must Obey:</h3>
+              <ol>
+                <li>Numbers divisible by 3 become "Pink"</li>
+                <li>Numbers divisible by 5 become "Bong"</li>
+                <li>Numbers divisible by 3 and 5 become "PinkBong"</li>
+              </ol>
             </div>
           </div>
         </div>
@@ -31,31 +37,32 @@
             <li>Created By:</li>
             <li>Tim Bourgault</li>
             <b />
-
+            <li>
           </ul>
           </div>
           <div class="col-xs-9 mainBody">
-            <h2>Release your <span class="release">Number Desires</span> here:</h2>
-            <form id="input" action="index.html" method="post">
-              <input id="desiredNumber" type="text" name="name" value="" placeholder="Your # Desires" class="expander">
-              <button type="submit" style="font-size:80px" class="btn-primary btn" name="button"><span class="buttonText">Submit Desires</span></button>
-            </form>
-            <div class="modal fade" tabindex="-1" role="dialog">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Gotta Catch'um All</h4>
-                  </div>
-                  <div class="modal-body">
-                    <ul><span id="result"></span></ul>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                  </div>
-                </div>
-              </div>
+            <h2>Release your <span class="release">Number Desires:</span></h2>
+            <div id="collapser">
+              <form id="input" action="index.html" method="post">
+                <input id="desiredNumber" type="text" value="" placeholder="Your # Desires" class="expander">
+                <a class="btn btn-primary" href="#textModal" style="font-size:80px"  data-toggle="modal" type="submit" name="button"><span id="buttonText">Submit Desires</span></a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="textModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Gotta Catch'um All</h4>
+            </div>
+            <div class="modal-body output">
+              <ul><span id="result"></span></ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
