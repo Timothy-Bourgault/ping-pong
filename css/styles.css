@@ -63,7 +63,7 @@ body {
 
 .mainBody h2 {
   font-family: 'Poiret One', cursive;
-  padding-left: 2em;
+  padding-left: 1.5em;
   font-size: 45px;
 }
 
@@ -77,6 +77,9 @@ body {
   height: 150px;
   font-size: 90px;
   border-radius: 20px;
+  text-align: center;
+  font-family: 'Bungee Outline', cursive;
+  border: 2px solid red;
 }
 
 .btn {
@@ -89,6 +92,7 @@ body {
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #ED80ED !important;
     padding-bottom: 1.75em;
+    margin-top: .25em;
 }
 
 .buttonText {
