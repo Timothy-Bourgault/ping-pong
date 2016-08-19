@@ -16,11 +16,11 @@
             <div class="col-lg-3">
               <img src="img/pinkBong.png" alt="a picture of a pink water pipe"/>
             </div>
-            <div class="col-lg-9 title">
+            <div class="col-lg-9 title" >
               <h1>Pink Bong</h1>
               <h2>Watch your numbers get stoned in style!</h2>
-              <h3>The Laws it must Obey:</h3>
-              <ol>
+              <h3 id="lawTitle">The Laws it must Obey:</h3>
+              <ol id="laws">
                 <li>Numbers divisible by 3 become "Pink"</li>
                 <li>Numbers divisible by 5 become "Bong"</li>
                 <li>Numbers divisible by 3 and 5 become "PinkBong"</li>
@@ -37,32 +37,17 @@
             <li>Created By:</li>
             <li>Tim Bourgault</li>
             <b />
-            <li>
+            <li>GitHub Link</li>
+            <a href="https://github.com/Timothy-Bourgault">Timothy-Bourgault</a>
           </ul>
           </div>
           <div class="col-xs-9 mainBody">
-            <h2>Release your <span class="release">Number Desires:</span></h2>
+            <h2>Release your <span class="release">Numerical Desires:</span></h2>
             <div id="collapser">
               <form id="input" action="index.html" method="post">
                 <input id="desiredNumber" type="text" value="" placeholder="Your # Desires" class="expander">
-                <a class="btn btn-primary" href="#textModal" style="font-size:80px"  data-toggle="modal" type="submit" name="button"><span id="buttonText">Submit Desires</span></a>
+                <a class="btn btn-primary" href="result.html" style="font-size:80px"   type="submit" name="button"><span id="buttonText">Submit Desires</span></a>
               </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="textModal">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title">Gotta Catch'um All</h4>
-            </div>
-            <div class="modal-body output">
-              <ul><span id="result"></span></ul>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>

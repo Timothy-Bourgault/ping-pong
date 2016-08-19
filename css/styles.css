@@ -20,6 +20,20 @@ body {
   padding-top: 1.5em;
 }
 
+#lawTitle {
+  text-align: left;
+  margin-top: 4em;
+  margin-left: 3em;
+  font-family: 'Anton', sans-serif;
+}
+
+#laws {
+  text-align: left;
+  list-style-type: circle;
+  margin-top: 1em;
+  margin-left: 3em;
+}
+
 .leftColumn h2 {
   font-family: 'Anton', sans-serif;
   text-align: left;
@@ -31,15 +45,16 @@ body {
   text-align: left;
   margin-left: -40px;
   list-style-type: none;
+  margin-top: 1em;
 }
 
 .jumbotron img {
   position: static;
-  width: 350px;
-  height: 450px;
+  width: 450px;
+  height: 650px;
   padding-right: 1em;
   padding-left: 5em;
-  margin-left: -7em;
+  margin-left: -9em;
 }
 
 .title h1 {
@@ -94,6 +109,7 @@ body {
     padding-bottom: 1.75em;
     margin-top: .25em;
 }
+
 #collapser {
   display:inline-flex;
 }
@@ -101,4 +117,14 @@ body {
 #buttonText {
   font-size: 60px;
   font-family: 'Khmer', cursive;
+}
+
+.resulTitle {
+  font-variant: small-caps;
+  font-weight: 900;
+  font-family: 'Poller One', cursive;
+  font-size: 80px;
+  color: #EDFAEE;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
 }
