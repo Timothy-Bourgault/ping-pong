@@ -1,0 +1,98 @@
+html {
+  background-color: #faedf9;
+}
+
+body {
+  background-color: #faedf9;
+}
+#wholeBackground {
+  background-color: #faedf9;
+}
+
+.jumbotron {
+  background: transparent;
+  width: 100%;
+}
+
+.title {
+  text-align: left;
+  padding-left: 1em;
+  padding-top: 1.5em;
+}
+
+.leftColumn h2 {
+  font-family: 'Anton', sans-serif;
+  text-align: left;
+}
+
+.leftColumn ul {
+  font-family: 'Londrina Outline', cursive;
+  font-size: 40px;
+  text-align: left;
+  margin-left: -40px;
+  list-style-type: none;
+}
+
+.jumbotron img {
+  position: static;
+  width: 350px;
+  height: 450px;
+  padding-right: 1em;
+  padding-left: 5em;
+  margin-left: -7em;
+}
+
+.title h1 {
+  font-variant: small-caps;
+  font-weight: 900;
+  font-family: 'Poller One', cursive;
+  font-size: 120px;
+  color: #EDFAEE;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.title h2 {
+  padding-top: 1.4em;
+  font-family: 'Bungee Outline', cursive;
+  font-size: 56px;
+}
+
+.mainBody {
+  text-align: left;
+}
+
+.mainBody h2 {
+  font-family: 'Poiret One', cursive;
+  padding-left: 2em;
+  font-size: 45px;
+}
+
+.release {
+  color: #ED80ED;
+  font-style: oblique;
+}
+
+.expander {
+  width: 800px;
+  height: 150px;
+  font-size: 90px;
+  border-radius: 20px;
+}
+
+.btn {
+  width: 800px;
+  height: 135px;
+  background color: #0cfa1f;
+  border-radius: 20px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #ED80ED !important;
+    padding-bottom: 1.75em;
+}
+
+.buttonText {
+  font-size: 60px;
+  font-family: 'Khmer', cursive;
+  tex
+}
