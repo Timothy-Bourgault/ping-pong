@@ -9,47 +9,49 @@
     <title>Pink Bong</title>
   </head>
   <body>
-    <div class="container" id="wholeBackground">
-      <div class="container">
-        <div class="jumbotron  widewrapper">
-          <div class="row">
-            <div class="col-lg-3">
-              <img src="img/pinkBong.png" alt="a picture of a pink water pipe"/>
-            </div>
-            <div class="col-lg-9 title" >
-              <h1>Pink Bong</h1>
-              <h2>Watch your numbers get stoned in style!</h2>
-              <h3 id="lawTitle">The Laws it must Obey:</h3>
-              <ol id="laws">
-                <li>Numbers divisible by 3 become "Pink"</li>
-                <li>Numbers divisible by 5 become "Bong"</li>
-                <li>Numbers divisible by 3 and 5 become "PinkBong"</li>
-              </ol>
-            </div>
+    <div class="container">
+      <div class="jumbotron  widewrapper">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="img/pinkBong.png" alt="a picture of a pink water pipe"/>
+          </div>
+          <div class="col-lg-9 title" >
+            <h1>Pink Bong</h1>
+            <h2>Watch your numbers get stoned in style!</h2>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-3 leftColumn">
-          <h2>About Pink Bong</h2>
-          <ul>
-            <li>Created By:</li>
-            <li>Tim Bourgault</li>
-            <b />
-            <li>GitHub Link</li>
-            <a href="https://github.com/Timothy-Bourgault">Timothy-Bourgault</a>
-          </ul>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-2 leftColumn">
+        <h2>About Pink Bong</h2>
+        <ul>
+          <li>Created By:</li>
+          <li>Tim Bourgault</li>
+          <b />
+          <li>GitHub Link:</li>
+          <a href="https://github.com/Timothy-Bourgault">Timothy-Bourgault</a>
+        </ul>
+        </div>
+        <div class="col-xs-7 mainBody">
+          <h3 id="lawTitle">The Laws it must Obey:</h3>
+          <ol id="laws">
+            <li>Numbers divisible by 3 become "Pink"</li>
+            <li>Numbers divisible by 5 become "Bong"</li>
+            <li>Numbers divisible by 3 and 5 become "PinkBong"</li>
+          </ol>
+          <h2>Release your <span class="release">Numerical Desires:</span></h2>
+          <div id="collapser">
+            <form id="Input" action="" method="post">
+              <input id="num" type="text" placeholder="(:#:)" class="expander">
+              <a class="btn btn-primary" href="" type="submit" name="button"><span id="buttonText">Submit</span></a>
+            </form>
           </div>
-          <div class="col-xs-9 mainBody">
-            <h2>Release your <span class="release">Numerical Desires:</span></h2>
-            <div id="collapser">
-              <form id="input" action="result.html" method="post">
-                <input id="desiredNumber" type="text" value="" placeholder="Your # Desires" class="expander">
-                <a class="btn btn-primary" href="result.html" style="font-size:80px"   type="submit" name="button"><span id="buttonText">Submit Desires</span></a>
-              </form>
-            </div>
-          </div>
+        </div>
+        <div class="col-xs-3 output">
+          <h1 class="resulTitle">Your Fantasy, Come True!</h1>
+          <ul><span id="result"></span></ul>
         </div>
       </div>
     </div>

@@ -1,16 +1,16 @@
 //Business Logic:
-function pinkBong(desiredNumber) {
+function pinkBong(num) {
   var list = []
-  for (var i = 1; i <= desiredNumber; i++) {
+  for (var i = 1; i <= num; i++) {
 
     if (i % 15 === 0) {
       list.push("PinkBong");
 
-    } else if (i % 3 === 0) {
-      list.push("Pink");
-
     } else if (i % 5 === 0) {
       list.push("Bong");
+
+    } else if (i % 3 === 0) {
+      list.push("Pink");
 
     } else {
       list.push(i);
@@ -20,17 +20,17 @@ function pinkBong(desiredNumber) {
 }
 //User Interface Logic:
 $(document).ready(function() {
-  $("form#input").submit(function(event) {
+  $("form#Input").submit(function(event) {
     event.preventDefault();
-    var desiredInput = $("input#desiredNumber").val();
-    var result = pinkBong(desiredInput);
+    var Input = $("Input#Number").val();
+    var result = pinkBong(Input);
 
-  for (x = 0; x < desiredInput; x++);
-    $("#result").append("<li>" + result[x] + "</li>");
+  for (j = 0; x < Input; j++);
+    $("#result").append("<li>" + "result[j]" + "</li>");
   })
     $(".output").show();
 
-  $("input#desiredNumber").keydown(function(){
+  $("Input#Number").keydown(function(){
     $("#result").text("")
   });
 });
