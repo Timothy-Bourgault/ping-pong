@@ -22,14 +22,13 @@ function pinkBong(num) {
 $(document).ready(function() {
   $("form#input").submit(function(event) {
     var input = $("input#num").val();
+  $("form#button").click(function(event) {
     var result = pinkBong(input);
-  $("form.btn btn-primary").click(function(event){
   })
   for (var j = 0; j < input; j++);
     $("#result").append("<li>" + result[j] + "</li>");
   })
-
-  $("input#number").keydown(function(){
+  $("input#number").keydown(function() {
     $("#result").text("");
     $(".output").show();
     event.preventDefault();

@@ -40,7 +40,7 @@ body {
 
 .leftColumn ul {
   font-family: 'Londrina Outline', cursive;
-  font-size: 30px;
+  font-size: 25px;
   text-align: left;
   margin-left: -40px;
   list-style-type: none;
@@ -71,19 +71,19 @@ body {
   font-size: 56px;
 }
 
+.release {
+  color: #ED80ED;
+  font-style: oblique;
+}
+
 .mainBody {
   text-align: left;
 }
 
 .mainBody h2 {
   font-family: 'Poiret One', cursive;
-  padding-left: 1.8em;
   font-size: 35px;
-}
-
-.release {
-  color: #ED80ED;
-  font-style: oblique;
+  text-align: center;
 }
 
 .expander {
@@ -95,7 +95,7 @@ body {
   font-family: 'Bungee Outline', cursive;
   border: 2px solid red;
   margin-top: 25px;
-  margin-left: .14em;
+  position: inherit;
 }
 
 .btn {
@@ -104,7 +104,6 @@ body {
   background color: #0cfa1f;
   margin-top: .25em;
   border-radius: 25px;
-  margin-left: .9em;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
@@ -128,4 +127,8 @@ body {
 }
 .output {
   display: none;
+}
+
+#collapser {
+  text-align: center;
 }
