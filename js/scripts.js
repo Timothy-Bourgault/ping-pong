@@ -20,17 +20,18 @@ function pinkBong(num) {
 }
 //User Interface Logic:
 $(document).ready(function() {
-  $("form#Input").submit(function(event) {
-    event.preventDefault();
-    var Input = $("Input#Number").val();
-    var result = pinkBong(Input);
-
-  for (j = 0; x < Input; j++);
-    $("#result").append("<li>" + "result[j]" + "</li>");
+  $("form#input").submit(function(event) {
+    var input = $("input#num").val();
+    var result = pinkBong(input);
+  $("form.btn btn-primary").click(function(event){
   })
-    $(".output").show();
+  for (var j = 0; j < input; j++);
+    $("#result").append("<li>" + result[j] + "</li>");
+  })
 
-  $("Input#Number").keydown(function(){
-    $("#result").text("")
+  $("input#number").keydown(function(){
+    $("#result").text("");
+    $(".output").show();
+    event.preventDefault();
   });
 });

@@ -1,37 +1,55 @@
-# _{Application Name}_
+# _{ping-pong}_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{Lists numbers making exeptions for divisibles of 3 and 5}, {Friday August, 19th 2016}_
 
-#### By _**{List of contributors}**_
+#### By _**{Tim Bourgault}**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{Specifications:
+  -It can count up to the provided numbers
+  Ex. Input: 4
+  Ex. Output: [1,2,3,4]
+
+  -It recognizes each number in the array that is divisible by 3 and replaces that number with the word "Pink"
+  Ex. Input: 9
+  Ex. Output: Pink
+
+  -It recognizes each number in the array that is divisible by 5 and replaces that number with the word "Bong"
+  Ex. Input: 10
+  Ex. Output: Bong
+
+  -It recognizes each number in the array that is divisible by 3 as well as 5 and replaces that number with the word "Pink"
+  Ex. Input: 15
+  Ex. Output: PinkBong
+
+  -It lists out all of the numbers between 1 and the number the user chooses with the variables Pink, Bong, and PinkBong in place of the correct numbers
+  Ex. Input: 15
+  Ex. Output: 1,2,Pink,4,Bong,Pink,7,8,Pink,Bong,11,Pink,13,14,PinkBong}_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _load index.html in your browser
+* _Or open it up on the web @ Timothy-Bourgault.github.io/ping-pong__
+* _Enter A Number into the "Your # Desires" field_
+* _Click the "Submit Desires" button to receive your result_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_{You may need a server}_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_{There are no known bugs}_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_{If any issues arise, please contact the Tim Bourgault @ tim.bourgault@gmail.com}_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_{Bootstrap, jQuery-3, Javascript}_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*{Open Source}*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_{Tim Bourgault}_**
